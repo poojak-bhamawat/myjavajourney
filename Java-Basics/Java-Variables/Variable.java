@@ -15,5 +15,13 @@ public class Variable{
         System.out.println("The sum is: "+(x+y)); // The sum is: 11
         System.out.println(a+b+c); // 18
         System.out.println(p+q+r); // 30
+
+        // Calculate the area of a rectangle
+        int length = 5;
+        int width = 4;
+        int area = length * width;
+        System.out.println("The length is: "+length); // The length is: 5
+        System.out.println("The width is: "+width); // The width is: 4
+        System.out.println("The area is: "+area); // The area is: 20
     }
 }
