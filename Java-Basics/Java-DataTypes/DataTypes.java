@@ -20,5 +20,20 @@ public class DataTypes{
         var Var3 = "John"; // myVar will be treated as a String
         var Var4 = 'A'; // myVar will be treated as a char
         var Var5 = true; // myVar will be treated as a boolean
+
+        // Student Report Card
+        int studentID;
+        studentID = 12345;
+        String studentName;
+        studentName = "John Doe";
+        double studentScore;
+        studentScore = 95.5;
+        char studentGrade;
+        studentGrade = 'A';
+
+        System.out.println(studentID);
+        System.out.println(studentName);
+        System.out.println(studentScore);
+        System.out.println(studentGrade);
     }
 }
