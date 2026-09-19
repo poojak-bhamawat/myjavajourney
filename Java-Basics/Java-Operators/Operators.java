@@ -33,5 +33,12 @@ public class Operators{
         System.out.println("Less than: " + (d < e)); // Less than
         System.out.println("Greater than or equal to: " + (d >= e)); // Greater than or equal to
         System.out.println("Less than or equal to: " + (d <= e)); // Less than or equal to
+
+        // Logical Operators
+        boolean f = true;
+        boolean g = false;
+        System.out.println("AND: " + (f && g)); // AND
+        System.out.println("OR: " + (f || g)); // OR
+        System.out.println("NOT: " + (!f)); // NOT
     }
 }
