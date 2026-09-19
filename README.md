@@ -77,9 +77,9 @@ As I learn new concepts, new topic folders will be added.
 * [x] Output
 * [x] Comments
 * [x] Variables
-* [ ] Data Types
-* [ ] Type Casting
-* [ ] Operators
+* [x] Data Types
+* [x] Type Casting
+* [x] Operators
 
 > I mark a topic as completed only after I have studied it and practiced it with my own code.
 
