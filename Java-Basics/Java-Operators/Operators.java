@@ -23,5 +23,15 @@ public class Operators{
         c ^= 5; // c = c ^ 5
         c >>= 5; // c = c >> 5
         c <<= 5; // c = c << 5
+
+        // Comparison Operators
+        int d = 10;
+        int e = 5;
+        System.out.println("Equal to: " + (d == e)); // Equal to
+        System.out.println("Not equal to: " + (d != e)); // Not equal to
+        System.out.println("Greater than: " + (d > e)); // Greater than
+        System.out.println("Less than: " + (d < e)); // Less than
+        System.out.println("Greater than or equal to: " + (d >= e)); // Greater than or equal to
+        System.out.println("Less than or equal to: " + (d <= e)); // Less than or equal to
     }
 }
