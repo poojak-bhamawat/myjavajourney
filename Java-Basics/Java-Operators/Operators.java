@@ -10,5 +10,18 @@ public class Operators{
         System.out.println("Modulus: " + (a % b)); // Remainder
         System.out.println("Increment: " + (++a)); // Pre-increment
         System.out.println("Decrement: " + (--a)); // Pre-decrement
+
+        // Assignment Operators
+        int c = 10;
+        c += 5; // c = c + 5
+        c -= 5; // c = c - 5
+        c *= 5; // c = c * 5
+        c /= 5; // c = c / 5
+        c %= 5; // c = c % 5
+        c &= 5; // c = c & 5
+        c |= 5; // c = c | 5
+        c ^= 5; // c = c ^ 5
+        c >>= 5; // c = c >> 5
+        c <<= 5; // c = c << 5
     }
 }
