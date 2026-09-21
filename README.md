@@ -80,6 +80,7 @@ As I learn new concepts, new topic folders will be added.
 * [x] Data Types
 * [x] Type Casting
 * [x] Operators
+* [x] Strings
 
 > I mark a topic as completed only after I have studied it and practiced it with my own code.
 
