@@ -12,5 +12,11 @@ public class MAth{
         System.out.println(Math.round(4.6));  // 5
         System.out.println(Math.ceil(4.4));  // 5
         System.out.println(Math.floor(4.4));  // 4
+
+        // Random numbers
+        System.out.println(Math.random());  // 0.0 to 1.0
+        System.out.println(Math.random() * 10);  // 0.0 to 10.0
+        int randomNumber = (int) (Math.random() * 10);  // 0 to 9
+        System.out.println(randomNumber);
     }
 }
