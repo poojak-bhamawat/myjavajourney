@@ -37,5 +37,15 @@ public class IfElse{
         }  else {
             System.out.println("Invalid day");
         }
+
+        // Short hand if...else
+        int time = 22;
+        String result = (time < 18) ? "Good day." : "Good evening.";
+        System.out.println(result);
+        
+        // Nested ternary
+        time = 16;
+        String message = (time < 12) ? "Good morning." : (time < 18) ? "Good afternoon." : "Good evening.";
+        System.out.println(message);
     }
 }
