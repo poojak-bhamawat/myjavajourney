@@ -60,6 +60,9 @@ MyJavaJourney/
     ├── Java-Output/
     ├── Java-Comments/
     ├── Java-Variables/
+    ├── Java-Data-Types/
+    ├── Java-Type-Casting/
+    ├── Java-Operators/
     └── ...
 ```
 
