@@ -18,5 +18,11 @@ public class For {
                 System.out.println("Inner loop: " + j);
             }
         }
+
+        // for each loop
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        for(String i : cars){
+            System.out.println(i);
+        }
     }
 }
