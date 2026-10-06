@@ -4,5 +4,8 @@ public class Arrays {
 
         // Access the element of an array
         System.out.println(cars[0]);
+
+        // Change an element of an array
+        cars[0] = "Opel";
     }
 }
