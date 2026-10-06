@@ -10,5 +10,13 @@ public class Arrays {
 
         // Array length
         System.out.println(cars.length);
+
+        // The new keyword
+        String[] cars2 = new String[4];
+        cars2[0] = "Volvo";
+        cars2[1] = "BMW";
+        cars2[2] = "Ford";
+        cars2[3] = "Mazda";
+        System.out.println(cars2[0]);
     }
 }
