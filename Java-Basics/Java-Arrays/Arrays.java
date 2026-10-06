@@ -7,5 +7,8 @@ public class Arrays {
 
         // Change an element of an array
         cars[0] = "Opel";
+
+        // Array length
+        System.out.println(cars.length);
     }
 }
