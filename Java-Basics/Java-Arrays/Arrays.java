@@ -18,5 +18,10 @@ public class Arrays {
         cars2[2] = "Ford";
         cars2[3] = "Mazda";
         System.out.println(cars2[0]);
+
+        // loop through an array
+        for (int i = 0; i < cars.length; i++) {
+            System.out.println(cars[i]);
+        }
     }
 }
