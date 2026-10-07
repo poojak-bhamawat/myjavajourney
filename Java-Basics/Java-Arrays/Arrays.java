@@ -23,5 +23,10 @@ public class Arrays {
         for (int i = 0; i < cars.length; i++) {
             System.out.println(cars[i]);
         }
+
+        // loop through an array with for-each
+        for (String i : cars) {
+            System.out.println(i);
+        }
     }
 }
