@@ -31,5 +31,8 @@ public class Arrays {
 
         // Multidimensional arrays
         int[][] myNumbers = { {1, 2, 3}, {5, 6, 7} };
+
+        // Access multidimensional array elements
+        System.out.println(myNumbers[1][2]);
     }
 }
