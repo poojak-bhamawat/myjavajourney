@@ -42,5 +42,12 @@ public class Arrays {
         // Rows and Columns(Lengths)
         System.out.println(myNumbers.length); // gives the number of rows
         System.out.println(myNumbers[0].length); // gives the number of columns
+
+        // Loop through a multidimensional array
+        for (int i = 0; i < myNumbers.length; ++i) {
+            for(int j = 0; j < myNumbers[i].length; ++j) {
+                System.out.println(myNumbers[i][j]);
+            }
+        }
     }
 }
