@@ -28,5 +28,8 @@ public class Arrays {
         for (String i : cars) {
             System.out.println(i);
         }
+
+        // Multidimensional arrays
+        int[][] myNumbers = { {1, 2, 3}, {5, 6, 7} };
     }
 }
