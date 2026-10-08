@@ -38,5 +38,9 @@ public class Arrays {
         // Change multidimensional array elements
         myNumbers[1][2] = 9;
         System.out.println(myNumbers[1][2]);
+
+        // Rows and Columns(Lengths)
+        System.out.println(myNumbers.length); // gives the number of rows
+        System.out.println(myNumbers[0].length); // gives the number of columns
     }
 }
