@@ -34,5 +34,9 @@ public class Arrays {
 
         // Access multidimensional array elements
         System.out.println(myNumbers[1][2]);
+
+        // Change multidimensional array elements
+        myNumbers[1][2] = 9;
+        System.out.println(myNumbers[1][2]);
     }
 }
